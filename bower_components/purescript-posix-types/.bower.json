@@ -1,0 +1,35 @@
+{
+  "name": "purescript-posix-types",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/purescript-node/purescript-posix-types"
+  },
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules",
+    "output",
+    "test",
+    "bower.json",
+    "package.json"
+  ],
+  "dependencies": {
+    "purescript-prelude": "^2.1.0",
+    "purescript-maybe": "^2.0.0"
+  },
+  "devDependencies": {
+    "purescript-console": "^2.0.0"
+  },
+  "homepage": "https://github.com/purescript-node/purescript-posix-types",
+  "version": "2.0.0",
+  "_release": "2.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v2.0.0",
+    "commit": "6e42856ff97a5c684fc93a71b60b1b2bcccd2810"
+  },
+  "_source": "https://github.com/purescript-node/purescript-posix-types.git",
+  "_target": "^2.0.0",
+  "_originalSource": "purescript-posix-types"
+}

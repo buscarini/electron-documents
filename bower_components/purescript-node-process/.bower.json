@@ -1,0 +1,36 @@
+{
+  "name": "purescript-node-process",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/purescript-node/purescript-node-process"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-console": "^2.0.0",
+    "purescript-exceptions": "^2.0.0",
+    "purescript-maps": "^2.0.0",
+    "purescript-maybe": "^2.0.0",
+    "purescript-node-fs": "^3.0.0",
+    "purescript-node-streams": "^2.0.0",
+    "purescript-posix-types": "^2.0.0",
+    "purescript-unsafe-coerce": "^2.0.0",
+    "purescript-partial": "^1.1.2"
+  },
+  "homepage": "https://github.com/purescript-node/purescript-node-process",
+  "version": "3.0.0",
+  "_release": "3.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v3.0.0",
+    "commit": "41d6fc7c1f55de736b6aee343f06edda3ede44cc"
+  },
+  "_source": "https://github.com/purescript-node/purescript-node-process.git",
+  "_target": "^3.0.0",
+  "_originalSource": "purescript-node-process"
+}

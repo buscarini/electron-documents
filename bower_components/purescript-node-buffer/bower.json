@@ -1,0 +1,24 @@
+{
+  "name": "purescript-node-buffer",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/purescript-node/purescript-node-buffer"
+  },
+  "dependencies": {
+    "purescript-eff": "^2.0.0",
+    "purescript-maybe": "^2.0.0"
+  },
+  "devDependencies": {
+    "purescript-assert": "^2.0.0",
+    "purescript-console": "^2.0.0",
+    "purescript-foldable-traversable": "^2.0.0"
+  }
+}

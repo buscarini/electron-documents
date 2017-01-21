@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "purescript-console": "^2.0.0",
+    "purescript-aff": "^2.0.2",
+    "purescript-node-fs-aff": "^3.0.0"
+  },
+  "description": "Electron Document Manager",
+  "devDependencies": {
+    "purescript-spec": "^0.11.0"
+  },
+  "homepage": "https://github.com/buscarini/electron-documents",
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules",
+    "output",
+    "test",
+    "bower.json",
+    "package.json"
+  ],
+  "license": "MIT",
+  "name": "electron-documents",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/buscarini/electron-documents.git"
+  }
+}
