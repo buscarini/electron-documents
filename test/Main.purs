@@ -7,8 +7,11 @@ import Test.Spec (pending, describe, it)
 import Test.Spec.Assertions (shouldEqual)
 import Test.Spec.Reporter.Console (consoleReporter)
 import Test.Spec.Runner (RunnerEffects, run)
+import Data.Maybe (Maybe(..))
 
-main :: Eff (RunnerEffects ()) Unit
+import Settings
+
+main :: Eff (RunnerEffects (settings :: SETTINGS)) Unit
 main = run [consoleReporter] do
   describe "purescript-spec" do
     describe "Attributes" do
@@ -24,3 +27,8 @@ main = run [consoleReporter] do
         res <- later' 100 $ pure "Alligator"
         res `shouldEqual` "Alligator"
       it "is PureScript 0.10.x compatible" $ pure unit
+    describe "Settings" do
+      it "saves and restores the same value" do
+        setItem "key" "value"
+        item <- getItem "key"
+        item `shouldEqual` (Just "value")

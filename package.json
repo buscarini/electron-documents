@@ -12,5 +12,9 @@
     "build": "jshint src && jscs src && pulp build -- --censor-lib --strict",
     "clean": "rimraf output && rimraf .pulp-cache",
     "test": "pulp test"
+  },
+  "dependencies": {
+    "electron": "^1.4.15",
+    "electron-settings": "^2.2.2"
   }
 }

@@ -24,6 +24,6 @@
     "commit": "a1e2e76dddba0227d6b1a55ff6b2dbfb4d16a6d9"
   },
   "_source": "https://github.com/purescript/purescript-prelude.git",
-  "_target": "^2.1.0",
+  "_target": "^2.0.0",
   "_originalSource": "purescript-prelude"
 }

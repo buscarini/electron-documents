@@ -36,6 +36,5 @@
   },
   "_source": "https://github.com/slamdata/purescript-aff.git",
   "_target": "^2.0.2",
-  "_originalSource": "purescript-aff",
-  "_direct": true
+  "_originalSource": "purescript-aff"
 }

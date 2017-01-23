@@ -40,6 +40,6 @@
     "commit": "81dd7fdeba273ef04de484b19c8fe3390f05e310"
   },
   "_source": "https://github.com/purescript/purescript-transformers.git",
-  "_target": "^2.0.1",
+  "_target": "^2.0.0",
   "_originalSource": "purescript-transformers"
 }

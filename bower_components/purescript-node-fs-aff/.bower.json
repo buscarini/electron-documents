@@ -41,6 +41,5 @@
   },
   "_source": "https://github.com/purescript-node/purescript-node-fs-aff.git",
   "_target": "^3.0.0",
-  "_originalSource": "purescript-node-fs-aff",
-  "_direct": true
+  "_originalSource": "purescript-node-fs-aff"
 }

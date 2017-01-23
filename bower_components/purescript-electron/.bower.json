@@ -1,0 +1,37 @@
+{
+  "name": "purescript-electron",
+  "homepage": "https://github.com/bamboo/purescript-electron",
+  "description": "FFI bindings for the Electron API",
+  "keywords": [
+    "purescript",
+    "electron"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bamboo/purescript-electron.git"
+  },
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules",
+    "output",
+    "test",
+    "bower.json",
+    "package.json"
+  ],
+  "dependencies": {
+    "purescript-argonaut-core": "^2.0.1",
+    "purescript-argonaut-codecs": "^2.0.0"
+  },
+  "devDependencies": {},
+  "_release": "f34e467756",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "f34e467756453d703159231855d917f799cbd330"
+  },
+  "_source": "https://github.com/buscarini/purescript-electron.git",
+  "_target": "master",
+  "_originalSource": "https://github.com/buscarini/purescript-electron.git"
+}

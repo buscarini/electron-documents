@@ -1,8 +1,8 @@
 {
   "dependencies": {
-    "purescript-console": "^2.0.0",
     "purescript-aff": "^2.0.2",
-    "purescript-node-fs-aff": "^3.0.0"
+    "purescript-node-fs-aff": "^3.0.0",
+    "purescript-electron": "https://github.com/buscarini/purescript-electron.git#master"
   },
   "description": "Electron Document Manager",
   "devDependencies": {
@@ -23,5 +23,19 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/buscarini/electron-documents.git"
+  },
+  "resolutions": {
+    "purescript-st": "^2.0.0",
+    "purescript-unfoldable": "^2.0.0",
+    "purescript-lazy": "^2.0.0",
+    "purescript-tuples": "^3.0.0",
+    "purescript-enums": "^2.0.0",
+    "purescript-strings": "^2.0.0",
+    "purescript-generics": "^3.0.0",
+    "purescript-proxy": "^1.0.0",
+    "purescript-integers": "^2.0.0",
+    "purescript-math": "^2.0.0",
+    "purescript-maps": "^2.0.0",
+    "purescript-lists": "^3.2.0"
   }
 }

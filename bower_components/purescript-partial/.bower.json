@@ -24,6 +24,6 @@
     "commit": "32630ca9eea66b06b9aa61ac7623e4db04b67e59"
   },
   "_source": "https://github.com/purescript/purescript-partial.git",
-  "_target": "^1.1.0",
+  "_target": "^1.1.2",
   "_originalSource": "purescript-partial"
 }
