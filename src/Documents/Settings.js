@@ -1,6 +1,7 @@
 /* globals getItemForeign, setItem */
 "use strict";
 
+const electron = require('electron');
 const settings = require('electron-settings');
 
 exports.getItemForeign = function (callback) {

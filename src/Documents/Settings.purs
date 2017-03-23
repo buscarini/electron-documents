@@ -1,4 +1,4 @@
-module Settings (SETTINGS,
+module Documents.Settings (SETTINGS,
   getItem,
   setItem
   -- removeItem,
